@@ -8,9 +8,10 @@ import { usePathname } from 'next/navigation';
 
 interface HeaderProps {
   cartItemCount?: number;
+  onOpenSearch?: () => void;
 }
 
-export default function Header({ cartItemCount = 0 }: HeaderProps) {
+export default function Header({ cartItemCount = 0, onOpenSearch }: HeaderProps) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const pathname = usePathname();
@@ -106,6 +107,7 @@ export default function Header({ cartItemCount = 0 }: HeaderProps) {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
               className={`p-2 ${isLightHeader ? 'text-text' : 'text-white'}`}
+              onClick={onOpenSearch}
               aria-label="Rechercher"
             >
               <Search size={20} />
