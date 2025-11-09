@@ -1,0 +1,36 @@
+{
+  "name": "kf-decor-site",
+  "version": "1.0.0",
+  "description": "K&F Décor - Modern E-commerce Website for Home Decoration",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "home-decor",
+    "ecommerce",
+    "nextjs"
+  ],
+  "author": "K&F Décor",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.2",
+    "autoprefixer": "^10.4.20",
+    "framer-motion": "^12.23.24",
+    "lucide-react": "^0.553.0",
+    "next": "14.2.15",
+    "postcss": "^8.4.47",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^14.2.15"
+  }
+}
