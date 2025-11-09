@@ -82,7 +82,7 @@ export default function Home() {
       {/* Hero Section */}
       <Hero
         title="Élevez Votre Espace de Vie Aujourd'hui"
-        subtitle="Découvrez des décorations faites main qui allient confort, style et qualité durable — conçues pour que chaque espace ressemble à la maison."
+        subtitle="Découvrez des décorations faites main qui allient confort, style et qualité durable. Conçues pour que chaque espace ressemble à la maison."
         ctaText="Explorer la Collection"
         ctaLink="#featured"
         backgroundImage="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1920&q=80"
