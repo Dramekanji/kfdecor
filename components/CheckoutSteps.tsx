@@ -12,7 +12,7 @@ const steps: Array<{ key: CheckoutStepsProps['currentStep']; label: string }> = 
 
 export default function CheckoutSteps({ currentStep }: CheckoutStepsProps) {
   return (
-    <ol className="flex items-center gap-6 text-sm font-medium">
+    <ol className="flex items-center gap-4 sm:gap-6 text-sm font-medium flex-wrap">
       {steps.map((step, index) => {
         const isCompleted = steps.findIndex((s) => s.key === currentStep) > index;
         const isActive = step.key === currentStep;
